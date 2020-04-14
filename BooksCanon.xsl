@@ -17,7 +17,7 @@
 				<title>Books</title>
 				<meta charset="utf-8"/>
 			</head>
-			<body style="background-color: #cccccc;">
+			<body style="background-color: #ffff;">
 				<xsl:apply-templates/>
 			</body>
 		</html>
@@ -26,11 +26,13 @@
 	<!-- Title -->
 	<xsl:template match="booksCanon/book">
 		<section style="
-			background-color: lightblue;
-			outline: 1px solid;
-			padding: 10px;
-			width: 50%;
-			margin: 10px auto;">
+			background-color: #E9D8FF;
+			box-shadow: 1px 1px 3px #cfcfcf;
+			padding: 15px;
+			width: 80%;
+			margin: 10px auto;
+            font-family: ubuntu;
+            border-radius: 20px;">
 		<xsl:apply-templates/>
 		</section>
 	</xsl:template>
